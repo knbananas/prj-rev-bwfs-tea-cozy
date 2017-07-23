@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    font-family: "Helvetica", sans-serif;
+    color: seashell;
+    background-color: black;
+    font-size: 22px;
+    text-align: center;
+}
+header {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 1;
+    width: 100%;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+}
+header a {
+    color: seashell;
+}
+header img {
+    height: 50px;
+    padding-left: 10px;
+}
+.logo img{
+	margin-right: 10px;
+	height: 50px;
+	margin-left: 10px;
+}
+nav {
+    text-align: right;
+    flex-grow: 1;
+}
+nav span{
+	display: inline-block;
+	padding: 20px 10px;
+}
+header nav{
+ 	padding-right: 40px;
+}
+#mission{
+	height: 700px;
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+    padding-top: 70px;
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+h2, h3, h4 {
+    margin: 0;
+    padding: 10px;
+}
+#mission .content {
+    margin: auto;
+    background-color: black;
+    width: 100%;
+}
+.main {
+    padding-top: 69px;
+    opacity: 0.9;
+    width: 1200px;
+    margin: auto;
+}
+#tea-of-month {
+    height: 700px;
+    width: 1000px;
+    margin: auto;
+    padding-top: 70px;
+}
+.item {
+    padding: 5px;
+}
+.item img {
+    height: 200px;
+    margin: 10px;
+    display: block;
+}
+#locations {
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+    height: 500px;
+    padding-top: 70px;
+}
+#locations .flex-container {
+    margin: auto;
+    width: 1100px;
+}
+.flex-container.locations {
+    padding-top: 5px;
+}
+#contact {
+    height: 200px;
+}
+footer {
+    text-align: left;
+    padding-left: 20px;
+}
+.location {
+    opacity: 1.0;
+    padding: 10px;
+    margin: 5px 20px;
+    background-color: black;
+    flex-basis: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
